@@ -18,25 +18,29 @@
 
 ## ✨ Features
 
-- 🖥️ **Interactive CLI Menu** — Numbered keyboard-driven interface (choices 0–9)
-- 📥 **Flexible Matrix Input** — Enter any matrix row-by-row, space-separated
-- ✅ **9 Full Operations** — Addition, Subtraction, Multiplication, Transpose, Determinant, Inverse, Eigenvalues, Rank, Trace
-- 📐 **Step-by-Step Working** — Full mathematical working shown for every operation
-- 🔁 **Verification Steps** — Automatic checks: `A × A⁻¹ = I`, `A·v = λ·v`
-- 🛡️ **Input Validation** — Shape checks, singularity detection, type error handling
-- 📘 **Auto Demo** — All 9 operations demonstrated on sample matrices (Step 7)
-- 🌀 **Eigenvalue Visualization** — Eigenvector quiver plot in 2D space
+-  **Interactive CLI Menu** — Numbered keyboard-driven interface (choices 0–9)
+-  **Flexible Matrix Input** — Enter any matrix row-by-row, space-separated
+-  **9 Full Operations** — Addition, Subtraction, Multiplication, Transpose, Determinant, Inverse, Eigenvalues, Rank, Trace
+-  **Step-by-Step Working** — Full mathematical working shown for every operation
+-  **Verification Steps** — Automatic checks: `A × A⁻¹ = I`, `A·v = λ·v`
+-  **Input Validation** — Shape checks, singularity detection, type error handling
+-  **Auto Demo** — All 9 operations demonstrated on sample matrices (Step 7)
+-  **Eigenvalue Visualization** — Eigenvector quiver plot in 2D space
 
 ---
 
-## 🗂️ Project Structure
+### 📂 Project Structure
 
+```text
+MatrixMaster-Interactive-NumPy-Operations-Console/
+├── MatrixMaster_NumPy_Operations.ipynb  # Main Jupyter Notebook with core NumPy logic & console simulation
+├── .gitignore                           # Configuration file to ignore temporary environment & cache files
+├── LICENSE                              # MIT Open-source license documentation
+└── README.md                            # Project documentation, execution steps, and key operations
 ```
-MatrixMaster/
-│
-├── MatrixMaster_NumPy_Operations.ipynb   # Main Jupyter Notebook
-└── README.md                             # This file
-```
+
+> ⚙️ **Note on Project Directory:** This repository contains pure algorithmic operations and matrix computations using NumPy. It does not require any external dataset (`.csv`), as all matrices and numerical consoles are generated dynamically programmatically within the notebook execution environment.
+
 
 ---
 
