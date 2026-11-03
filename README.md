@@ -1,12 +1,9 @@
 # 🔢 MatrixMaster: Interactive NumPy Operations Console
 
-> **QSkill Python Development Internship — Slab 1, Task 3**
-
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.26%2B-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Internship](https://img.shields.io/badge/QSkill-Python%20Internship-purple)](https://qskill.in/)
 
 ---
 
@@ -62,7 +59,6 @@ MatrixMaster-Interactive-NumPy-Operations-Console/
 ```
 ═══════════════════════════════════════════════════════
   Welcome to 🔢 MatrixMaster!
-  QSkill Python Internship | Slab 1 — Task 3
 ═══════════════════════════════════════════════════════
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -247,19 +243,6 @@ rank(A) = number of non-zero singular values of A
 - **Educational focus** — every step of the working is printed, not just the result.
 - **Verification built-in** — `A × A⁻¹ = I` and `A·v = λ·v` checks run automatically.
 - **Graceful error handling** — invalid inputs never crash the console; clear messages guide the user.
-
----
-
-## 🎓 Internship Details
-
-| Field | Details |
-|-------|---------|
-| Organization | QSkill |
-| Domain | Python Development |
-| Slab | Slab 1 (Beginners) |
-| Task | Task 3 of 3 |
-| Duration | 1st April 2026 – 1st May 2026 |
-| Deadline | 1st May 2026 |
 
 ---
 
